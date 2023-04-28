@@ -23,7 +23,7 @@ def prompt_until_predicate_met(prompt: str, error: Callable[[str], Optional[str]
 
 def get_user_range() -> Tuple[int, int]:
     """
-    Prompts the user for input until the user enters a valid range and returns the range as a tuple.
+    Prompts the user for input until the user enters a valid range and subsequently returns the range as a tuple.
     :return: The range of integers as a tuple
     """
     
